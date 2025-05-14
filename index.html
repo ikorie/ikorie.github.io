@@ -3,16 +3,48 @@
 <head>
   <title>ikorie</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body class="bg-gray-100 text-center p-6">
   <img src="j1.jpg" alt="profile" class="mx-auto rounded-full w-32 mb-4">
   <h1 class="text-2xl font-bold">ikorie</h1>
-  <p class="text-gray-600 mb-4">github.io</p>
+  <p class="text-gray-600 mb-4">たしゅみ な いんきゃ が あらわれた！</p>
 
-  <div class="space-y-3">
-    <a href="https://twitter.com/homei_belias" class="block bg-blue-500 text-white p-3 rounded-xl">Twitter</a>
-    <a href="https://github.com/ikorie" class="block bg-gray-800 text-white p-3 rounded-xl">GitHub</a>
-    <!--<a href="https://yourblog.com" class="block bg-green-500 text-white p-3 rounded-xl">Blog</a>-->
-  </div>
+    <div class="space-y-4">
+      <!-- Twitter -->
+      <a href="https://twitter.com/homei_belias" class="inline-flex items-center gap-2 px-4 py-3 bg-blue-500 text-white rounded-xl shadow hover:bg-blue-600">
+        <i data-lucide="twitter"></i>
+        Twitter<p class="text-sm text-gray-200">FF14/games</p>
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/de_la_del" class="inline-flex items-center gap-2 px-4 py-3 bg-pink-500 text-white rounded-xl shadow hover:bg-pink-600">
+        <i data-lucide="instagram"></i>
+        Instagram<p class="text-sm text-gray-200">意識高い写真</p>
+      </a>
+
+      <!-- Bluesky -->
+      <a href="https://bsky.app/profile/ikorie.net" class="inline-flex items-center gap-2 px-4 py-3 bg-sky-500 text-white rounded-xl shadow hover:bg-sky-600">
+        <i data-lucide="cloud"></i>
+        Bluesky<p class="text-sm text-gray-200">雑記</p>
+      </a>
+
+      <!-- GitHub -->
+      <a href="https://github.com/ikorie" class="inline-flex items-center gap-2 px-4 py-3 bg-gray-800 text-white rounded-xl shadow hover:bg-gray-900">
+        <i data-lucide="github"></i>
+        GitHub<p class="text-sm text-gray-200">ほぼprivate</p>
+      </a>
+
+      <!-- SEXTET -->
+      <a href="http://tb-sextet.com" class="inline-flex items-center gap-2 px-4 py-3 bg-green-500 text-white rounded-xl shadow hover:bg-green-600">
+        <i data-lucide="globe"></i>
+        SEXTET Server<p class="text-sm text-gray-200">主にminecraft</p>
+      </a>
+
+    </div>
+
+  <script>
+    lucide.createIcons(); // Lucide icons を起動
+  </script>
 </body>
 </html>
